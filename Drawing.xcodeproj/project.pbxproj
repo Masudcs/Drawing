@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0F0117298834A10072776E /* CGAffineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F0116298834A10072776E /* CGAffineView.swift */; };
+		0A53817F2989880E00AE2A02 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A53817E2989880E00AE2A02 /* ColorCyclingCircle.swift */; };
+		0A645A6C298AE4B70003ABA6 /* SpiroGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A645A6B298AE4B70003ABA6 /* SpiroGraphView.swift */; };
+		0A71B702298EA45D00F94D60 /* ArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71B701298EA45D00F94D60 /* ArrowShape.swift */; };
+		0A8BF45E2988B8BA00504545 /* ImagePaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BF45D2988B8BA00504545 /* ImagePaintView.swift */; };
 		0AB65DD9298591BB004AE1D3 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB65DD8298591BB004AE1D3 /* DrawingApp.swift */; };
 		0AB65DDB298591BB004AE1D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB65DDA298591BB004AE1D3 /* ContentView.swift */; };
 		0AB65DDD298591BC004AE1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB65DDC298591BC004AE1D3 /* Assets.xcassets */; };
 		0AB65DE0298591BC004AE1D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB65DDF298591BC004AE1D3 /* Preview Assets.xcassets */; };
+		0AB65DE729859F90004AE1D3 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB65DE629859F90004AE1D3 /* PathView.swift */; };
+		0AB65DE92985A051004AE1D3 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB65DE82985A051004AE1D3 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0F0116298834A10072776E /* CGAffineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineView.swift; sourceTree = "<group>"; };
+		0A53817E2989880E00AE2A02 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		0A645A6B298AE4B70003ABA6 /* SpiroGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroGraphView.swift; sourceTree = "<group>"; };
+		0A71B701298EA45D00F94D60 /* ArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowShape.swift; sourceTree = "<group>"; };
+		0A8BF45D2988B8BA00504545 /* ImagePaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaintView.swift; sourceTree = "<group>"; };
 		0AB65DD5298591BB004AE1D3 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB65DD8298591BB004AE1D3 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		0AB65DDA298591BB004AE1D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0AB65DDC298591BC004AE1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AB65DDF298591BC004AE1D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AB65DE629859F90004AE1D3 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		0AB65DE82985A051004AE1D3 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0F0118298834C10072776E /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F0116298834A10072776E /* CGAffineView.swift */,
+				0AB65DE629859F90004AE1D3 /* PathView.swift */,
+				0AB65DE82985A051004AE1D3 /* ShapesView.swift */,
+				0A8BF45D2988B8BA00504545 /* ImagePaintView.swift */,
+				0A53817E2989880E00AE2A02 /* ColorCyclingCircle.swift */,
+				0A645A6B298AE4B70003ABA6 /* SpiroGraphView.swift */,
+				0A71B701298EA45D00F94D60 /* ArrowShape.swift */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
 		0AB65DCC298591BB004AE1D3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,7 @@
 		0AB65DD7298591BB004AE1D3 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				0A0F0118298834C10072776E /* Draw */,
 				0AB65DD8298591BB004AE1D3 /* DrawingApp.swift */,
 				0AB65DDA298591BB004AE1D3 /* ContentView.swift */,
 				0AB65DDC298591BC004AE1D3 /* Assets.xcassets */,
@@ -138,7 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB65DDB298591BB004AE1D3 /* ContentView.swift in Sources */,
+				0A645A6C298AE4B70003ABA6 /* SpiroGraphView.swift in Sources */,
+				0A53817F2989880E00AE2A02 /* ColorCyclingCircle.swift in Sources */,
+				0AB65DE729859F90004AE1D3 /* PathView.swift in Sources */,
+				0A8BF45E2988B8BA00504545 /* ImagePaintView.swift in Sources */,
+				0AB65DE92985A051004AE1D3 /* ShapesView.swift in Sources */,
 				0AB65DD9298591BB004AE1D3 /* DrawingApp.swift in Sources */,
+				0A71B702298EA45D00F94D60 /* ArrowShape.swift in Sources */,
+				0A0F0117298834A10072776E /* CGAffineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -274,6 +310,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +339,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
